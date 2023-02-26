@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    position: absolute;
+    top:25%;
+    left: 25%;
+}
+
+.button
+{
+    margin: 15px 15px 50px 15px;
+    height: 3em;
+    width: 9em;
+}
+
+.button:hover
+{
+    background-color: brown;  
+}
+
+
+ul
+{   
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.squareBoy
+{
+
+    margin:auto;
+    background-color: coral;
+}
+
+.squareGirl
+{
+    border-width: 5px;
+    border-radius: 2vw;
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    background-color: blueviolet;
+}
+
+.squareCouple
+{
+    display: flex;
+    justify-content: center;
+}
